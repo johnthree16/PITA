@@ -1,0 +1,35 @@
+*{
+    background-color: royalblue
+}
+div{
+    height: 35px;
+    width: 505px;
+    text-align: center;
+    margin: auto;
+}
+.box{
+    background-color: white;
+    height: 500px;
+    width: 400px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 100px;
+    margin-top: 130px;
+}
+.Label{
+    color: lightgray;
+    height: 55px;
+    width: 320px;
+    border: lightgray;
+    padding: 15px;
+    padding-top: -100px;
+    padding-right: -40px;
+}
+form{
+margin-left: 875px;
+    width: 200px;
+    padding: 4px 10px;
+    margin-bottom: 0;
+    float: left;
+    border: 0;
+}
