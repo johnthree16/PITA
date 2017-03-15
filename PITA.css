@@ -1,0 +1,105 @@
+
+nav{
+
+	position: fixed;
+	height: 60px;
+	color: gray;
+	width: 99.5%;
+	background-color: lightgray;
+	font-size: 20px;
+	font-family: Georgia;
+}
+
+nav ul li:first-child{
+	float:left;
+}
+
+nav ul li{
+	list-style: none;
+	float: right;
+	margin: 10px;
+}
+.foo{
+	color: black;
+}
+input{
+	color: black;
+	font-size: 15px;
+	margin-left: 110px;
+	margin-top: 100px;
+	margin-bottom: -140px;
+	margin-right: 100px;
+	border: 2px solid lightgray;
+	padding: 15px;
+	height: 1px;
+	width: 450px;
+}
+label {
+	margin: 6%;
+	position: relative;
+	bottom: 50px;
+	border: transparent;
+}
+
+div{
+	height: auto;
+	width: auto;
+	max-width: 20px;
+	max-height: 20px;
+	margin-top: -45px;
+	margin-bottom: 50px;
+	padding-left: 595px;
+	}
+
+img.resize{
+	width:37px;
+	height:40px;
+}
+
+img {
+	border: 2px solid lightgray;
+	margin-top: -60px;
+}
+.pagination {
+	display: table-row;
+	list-style: none;
+	padding-top: auto;
+	margin-bottom: 140px;
+}
+div {
+	padding-top: 40px;
+}
+.pagination a {
+	position: static;
+	padding-top: auto;
+	color: black;
+	float: top;
+	text-decoration: none;
+	padding-left: 44px;
+	font-size: 15px;
+	margin-right: 20px;
+}
+}
+
+.listings {
+	list-style: none;
+	padding: 0;
+	margin-left: 5;
+	color: #999999;
+}
+
+.listings li {
+	margin-bottom: 1px;
+	margin-left: 80px;
+}
+
+.listings a {
+	display: inline-block;
+	font-weight: bold;
+	font-size: 17px;
+	margin-left: 25px;
+	margin-right: 20px;
+	color: royalblue;
+	text-decoration: none;
+	margin-top: 50px;
+}
