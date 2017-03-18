@@ -1,34 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>AnalogSea</title>
-    <meta charset="UTF-8">
+    <meta charset="utf-8" name="description" content="Signup page challenge">
     <link rel="stylesheet" type="text/css" href="analog.css">
+    <title>Signup Page Challenge</title>
 </head>
-
 <body>
-    <form>
-            <label></label>
-            <input id="foo@bar.com" class="" name="foo@bar.com" type="text" placeholder="foo@bar.com" required />
-    </form>
-
-
-    <div>
-    <label class="Label">Sign up</label>
-    </div>
-
-<form>
-    <label></label>
-        <input id="1234passw0rd" class="" name="1234passw0rd" type="text" placeholder="1234passw0rd" required />
-</form>
-
-    <div id='button-holder'>
-        <img class="resize" src="https://tf-curricula-prod.s3.amazonaws.com/curricula/5b3249003592fc371bac5c6254b50c9c/FEWD-001/v6/assets2/1.6.2_challenge_signup_form/logo.png"/>
-    </div>
-
-    <div class="box">
-    </div>
-
+ <div class="img"><img src="https://tf-curricula-prod.s3.amazonaws.com/curricula/5b3249003592fc371bac5c6254b50c9c/FEWD-001/v6/assets2/1.6.2_challenge_signup_form/logo.png"</div>
+ <form class="signup-form" action="/signup/" method="post">
+  <legend>Sign Up</legend>
+  <fieldset name="sign-up">
+   <label for="email">Email</label>
+   <input type="email" name="email" placeholder="foo@bar.com" required/>
+   <label for="password">Password</label>
+   <input type="password" name="password" placeholder="1234passw0rd" required/>
+   <button type="submit">Sign Up</button>
+   <a href="/forgot-password/new">Forgot password?>
+  </fieldset>
+ </form>
+ <p>Already have an account?
+  <a href="/login">Log in</a>
+ </p>
 </body>
-
 </html>

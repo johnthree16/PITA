@@ -1,35 +1,84 @@
-*{
-    background-color: royalblue
-}
-div{
+img {
     height: 35px;
-    width: 505px;
-    text-align: center;
-    margin: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
 }
-.box{
-    background-color: white;
-    height: 500px;
+
+body {
+  background-color: #298eea;
+  font-family: 'Roboto', helvetica, sans-serif;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+legend {
+    font-size: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+
+.signup-form {
     width: 400px;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 100px;
-    margin-top: 130px;
+    background-color: white;
+    padding: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    border-radius: 3px;
 }
-.Label{
-    color: lightgray;
-    height: 55px;
+
+fieldset {
+    border: none;
+    padding: 0;
+}
+
+input {
     width: 320px;
-    border: lightgray;
+    height: 55px;
+    border: 2px solid #DDDDDD;
     padding: 15px;
-    padding-top: -100px;
-    padding-right: -40px;
+    border-radius: 3px;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
-form{
-margin-left: 875px;
-    width: 200px;
-    padding: 4px 10px;
-    margin-bottom: 0;
-    float: left;
-    border: 0;
+
+button {
+    width: 320px;
+    height: 55px;
+    padding: 15px;
+    border-radius: 3px;
+    background-color: #15CD72;
+    color: white;
+    font-size: 20px;
+    border: 2px solid #DDDDDD
+}
+
+button:hover{
+    background-color: rgb(21, 185, 114);
+}
+
+form a {
+    color: #999;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+}
+
+p{
+    color: white;
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+a {
+    color: white;
+
 }
