@@ -1,0 +1,31 @@
+main {
+    padding-top: 100px;
+}
+
+main .row {
+    margin-bottom: 20px;
+}
+
+.box {
+    line-height: 70px;
+    text-align: center;
+    padding-top: 30px;
+    border-radius: 10px;
+}
+
+.box-black {
+    background-color: black;
+    color: white;
+}
+
+.box-green {
+    background-color: green;
+}
+
+.box-orange {
+    background-color: orange;
+}
+
+.box-blue {
+    background-color: blue;
+}
